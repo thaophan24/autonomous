@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.amazon.com/'</initValue>
+      <name>G_URLAmazon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tptemp516@gmail.com'</initValue>
+      <name>G_UserAmazon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Asdf!@#123'</initValue>
+      <name>G_PassAmazon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.google.com/'</initValue>
+      <name>G_URLGoogle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tptemp516@gmail.com'</initValue>
+      <name>G_UserGmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Asdf!@#123'</initValue>
+      <name>G_PassGmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>G_CurrentIndex</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
