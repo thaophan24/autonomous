@@ -24,9 +24,7 @@ WebUI.comment('Open Inbox')
 
 WebUI.click(findTestObject('Gmail/Login/a_Gmail'))
 
-WebUI.refresh()
-
-WebUI.waitForElementPresent(findTestObject('Gmail/ApproveOrDecline/span_AmazonSecurityAlertEmail'), 10)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Gmail/ApproveOrDecline/span_AmazonSecurityAlertEmail'))
 

@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tptemp516@gmail.com'</initValue>
+      <initValue>'tptemp25@gmail.com'</initValue>
       <name>G_UserAmazon</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Asdf!@#123'</initValue>
+      <initValue>'Asdf!@#1234'</initValue>
       <name>G_PassAmazon</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tptemp516@gmail.com'</initValue>
+      <initValue>'tptemp25@gmail.com'</initValue>
       <name>G_UserGmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -17,14 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open browser'
 WebUI.callTestCase(findTestCase('CommonTestcases/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Sign in Amazon.com'
 WebUI.callTestCase(findTestCase('CommonTestcases/LoginAmazon'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Amazon security alert: Sign-in attempt'
 WebUI.callTestCase(findTestCase('CommonTestcases/ApprovedAmazonSecurityAlert'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Search by "sd card"'
 WebUI.callTestCase(findTestCase('CommonTestcases/SearchProduct'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'View product details and add to cart'
 WebUI.callTestCase(findTestCase('CommonTestcases/AddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify the subtitle price is correct'
+WebUI.callTestCase(findTestCase('CommonTestcases/VerifyPriceInCart'), [:], FailureHandling.STOP_ON_FAILURE)
 

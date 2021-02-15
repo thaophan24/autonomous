@@ -27,30 +27,3 @@ WebUI.click(findTestObject('Amazon/SearchProduct/span_ViewCart'))
 WebUI.click(findTestObject('Amazon/Cart/span_QualityDropdown'))
 
 WebUI.click(findTestObject('Amazon/Cart/li_Select3Products'))
-
-String a = WebUI.getText(findTestObject('Amazon/Cart/span_Price'))
-
-String price = a.replace('$', '')
-
-float priceInt = price.toFloat()
-
-println(priceInt)
-
-float total = priceInt * 3
-
-total = CustomKeywords.'common.CommonUtils.roundDecimals'(total, 2)
-
-//println total
-String b = WebUI.getText(findTestObject('Amazon/Cart/span_SubTotal'))
-
-//println b
-String subTotal = b.replace('$', '')
-
-float subTotalInt = subTotal.toFloat()
-
-//println subTotalInt
-if (total == subTotalInt) {
-    KeywordUtil.markPassed('The subtotal price is correctly')
-} else {
-    KeywordUtil.markFailed('The subtotal price is incorrectly')
-}
