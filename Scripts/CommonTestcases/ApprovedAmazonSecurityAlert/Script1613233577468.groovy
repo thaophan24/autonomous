@@ -40,3 +40,5 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('Gmail/ApproveOrDecline/button_Approved'))
 
+WebUI.switchToDefaultContent()
+

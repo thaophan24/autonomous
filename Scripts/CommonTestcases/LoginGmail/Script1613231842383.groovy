@@ -31,4 +31,5 @@ WebUI.sendKeys(findTestObject('Gmail/Login/input_PassGmail'), GlobalVariable.G_P
 
 WebUI.click(findTestObject('Gmail/Login/button_NextToLogin'))
 
-//WebUI.switchToWindowIndex(1)
+WebUI.delay(3)
+
