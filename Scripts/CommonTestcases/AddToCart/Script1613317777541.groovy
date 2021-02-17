@@ -17,13 +17,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.click(findTestObject('Amazon/SearchProduct/input_ButtonAddToCart'))
+
+WebUI.delay(2)
+
+//WebUI.click(findTestObject('Amazon/SearchProduct/button_AddOnModal'))
 
 WebUI.waitForElementPresent(findTestObject('Amazon/SearchProduct/span_ViewCart'), 5)
 
 WebUI.click(findTestObject('Amazon/SearchProduct/span_ViewCart'))
 
+WebUI.click(findTestObject('Amazon/HomePage/a_Cart'))
+
 WebUI.click(findTestObject('Amazon/Cart/span_QualityDropdown'))
 
 WebUI.click(findTestObject('Amazon/Cart/li_Select3Products'))
+

@@ -44,5 +44,6 @@ if (total == subTotalInt) {
 
     WebUI.click(findTestObject('Amazon/Cart/span_Delete'))
 } else {
-    KeywordUtil.markFailed('The subtotal price is incorrectly')
+    KeywordUtil.markFailed('This seller has only 2 of these available. To see if more are available from another seller, go to the product detail page.')
 }
+
